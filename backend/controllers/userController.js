@@ -1,4 +1,3 @@
-// Import necessary modules and files
 import asyncHandler from 'express-async-handler';
 import User from '../models/userModel.js';
 import generateToken from '../utils/generateToken.js';
@@ -69,7 +68,7 @@ const registerUser = asyncHandler(async (req, res) => {
   } else {
     // If user creation fails, return an error response
     res.status(400);
-    throw a Error('Invalid user data');
+    throw Error('Invalid user data');
   }
 });
 

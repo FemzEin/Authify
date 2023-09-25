@@ -76,16 +76,7 @@ const LoginScreen = () => {
           variant='primary'
           className='mt-3'
         >
-          Sign In
-        </Button>
-
-        <Button
-          id='login-with-other'
-          variant='secondary'
-          className='mt-3'
-          type='submit'
-        >
-          Sign In with Google
+          Log In
         </Button>
       </Form>
 
@@ -93,7 +84,7 @@ const LoginScreen = () => {
 
       <Row className='py-3'>
         <Col>
-          New ? <Link to='/register'>Register</Link>
+          New User? <Link to='/register'>Register</Link>
         </Col>
       </Row>
     </FormContainer>

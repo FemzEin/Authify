@@ -17,7 +17,7 @@ that can be integrated into various web applications in future projects.
           </p>
           <div className='d-flex'>
             <Button variant='primary' href='/login' className='me-3'>
-              Sign In
+              Log In
             </Button>
             <Button variant='secondary' href='/register'>
               Register

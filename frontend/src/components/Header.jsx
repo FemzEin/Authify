@@ -39,7 +39,7 @@ const Header = () => {
                 <>
                   <NavDropdown title={userInfo.name} id='username'>
                     <LinkContainer to='/profile'>
-                      <NavDropdown.Item>Profile</NavDropdown.Item>
+                      <NavDropdown.Item>Profile Update</NavDropdown.Item>
                     </LinkContainer>
                     <NavDropdown.Item onClick={logoutHandler}>
                       Logout
@@ -50,7 +50,7 @@ const Header = () => {
                 <>
                   <LinkContainer to='/login'>
                     <Nav.Link>
-                      <FaSignInAlt /> Sign In
+                      <FaSignInAlt /> Log In
                     </Nav.Link>
                   </LinkContainer>
                   <LinkContainer to='/register'>

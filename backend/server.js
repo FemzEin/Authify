@@ -44,7 +44,7 @@ if (process.env.NODE_ENV === 'production') {
 
   app.get('*', (req, res) =>
     res.sendFile(path.resolve(__dirname, 'frontend', 'dist', 'index.html')
-  );
+  ))
 } else {
   // In development, provide a simple response for the root URL
   app.get('/', (req, res) => {
